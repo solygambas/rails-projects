@@ -1,24 +1,20 @@
-# README
+# Simpleblog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple blog to learn Ruby on Rails.
 
-Things you may want to cover:
+<!-- <p align="center">
+    <img src="screenshot.png">
+</p> -->
 
-* Ruby version
+## Features
 
-* System dependencies
+- creating a Ruby on Rails project.
+- generating a controller.
+- rendering variables in a template.
+- creating a model for Post.
+- adding new posts.
+- displaying posts by ID.
+- creating a navbar with Bootstrap.
+- handling errors in a form.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Based on [Ruby On Rails In 60 Minutes](https://www.youtube.com/watch?v=pPy0GQJLZUM) by Brad Traversy - Traversy Media (2016).
