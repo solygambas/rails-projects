@@ -1,6 +1,6 @@
-<h1 class="my-4">Add Post</h1>
+<h1 class="my-4">Edit Post</h1>
 <%# https://stackoverflow.com/questions/70400958/error-form-responses-must-redirect-to-another-location %>
-<%= form_for :post, url: posts_path, data: { turbo: false } do |f| %>
+<%= form_for :post, url: post_path(@post), method: :patch, data: { turbo: false } do |f| %>
     <% if @post.errors.any? %>
         <% @post.errors.messages[:title].each do |msg| %>
             <div class="alert alert-danger" role="alert">Title <%= msg %></div>

@@ -16,5 +16,6 @@ A simple blog to learn Ruby on Rails.
 - displaying posts by ID.
 - creating a navbar with Bootstrap.
 - handling errors in a form.
+- editing and deleting a post.
 
 Based on [Ruby On Rails In 60 Minutes](https://www.youtube.com/watch?v=pPy0GQJLZUM) by Brad Traversy - Traversy Media (2016).
