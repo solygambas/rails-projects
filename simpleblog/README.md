@@ -2,9 +2,9 @@
 
 A simple blog to learn Ruby on Rails.
 
-<!-- <p align="center">
+<p align="center">
     <img src="screenshot.png">
-</p> -->
+</p>
 
 ## Features
 
@@ -18,5 +18,6 @@ A simple blog to learn Ruby on Rails.
 - handling errors in a form.
 - editing and deleting a post.
 - adding and deleting comments.
+- restricting routes with basic auth.
 
 Based on [Ruby On Rails In 60 Minutes](https://www.youtube.com/watch?v=pPy0GQJLZUM) by Brad Traversy - Traversy Media (2016).
