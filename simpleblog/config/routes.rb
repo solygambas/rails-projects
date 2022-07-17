@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   root "posts#index",  as: 'home'
   get 'about' => 'pages#about', as: 'about'
   # Run "rails routes" to see all routes created
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
 end
